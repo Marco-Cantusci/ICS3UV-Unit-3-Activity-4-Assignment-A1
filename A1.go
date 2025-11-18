@@ -67,20 +67,20 @@ func main() {
 	fmt.Printf("Number of washers: %d \n", washerAmountInt)
 
 	// if more bolts than nuts
-	if (boltAmountInt > nutAmountInt) {
-		fmt.Println("Check the Order - not enough nuts for the bolts you purchased.")
+if (boltAmountInt > nutAmountInt) {
+	fmt.Println("Check the Order - not enough nuts for the bolts you purchased.")
 
-	// if not enough washers
-	} else if (boltAmountInt > washerAmountInt) {
-		fmt.Println("Check the Order - not enough washers for the bolts you purchased.")
+// if not enough washers
+} else if (boltAmountInt > washerAmountInt) {
+	fmt.Println("Check the Order - not enough washers for the bolts you purchased.")
 
 
-	// else statement
-	} else {
-		fmt.Println("Your order is OK.")
-	}
+// else statement
+} else {
+	fmt.Println("Your order is OK.")
+}
 
-	// print total cost
+// print total cost
 	fmt.Printf("Your total cost of the order is %d cents. \n", totalPrice)
 
 	fmt.Println("\nDone.")
