@@ -69,8 +69,7 @@ func main() {
 	// if more bolts than nuts
 	if boltAmountInt > nutAmountInt {
 		fmt.Println("Check the Order - not enough nuts for the bolts you purchased.")
-
-
+	
 	} else if boltAmountInt > washerAmountInt {
 		fmt.Println("Check the Order - not enough washers for the bolts you purchased.")
 
