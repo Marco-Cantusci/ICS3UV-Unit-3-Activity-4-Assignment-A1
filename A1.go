@@ -74,7 +74,8 @@ func main() {
 		fmt.Println("Check the Order - not enough washers for the bolts you purchased.")
 
 	} else {
-		fmt.Println("Your order is OK.") }
+		fmt.Println("Your order is OK.") 
+	}
 
 // print total cost
 	fmt.Printf("Your total cost of the order is %d cents. \n", totalPrice)
